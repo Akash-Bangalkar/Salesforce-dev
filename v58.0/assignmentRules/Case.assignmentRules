@@ -4,7 +4,7 @@
         <fullName>Case AR</fullName>
         <active>false</active>
         <ruleEntry>
-            <assignedTo>akash@flexagon.source</assignedTo>
+            <assignedTo>akash@flexagon.target</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Case.Priority</field>
@@ -17,7 +17,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>akash@flexagon.source</assignedTo>
+            <assignedTo>akash@flexagon.target</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -36,7 +36,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>akash@flexagon.source</assignedTo>
+            <assignedTo>akash@flexagon.target</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -55,7 +55,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>akash@flexagon.source</assignedTo>
+            <assignedTo>akash@flexagon.target</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -74,7 +74,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>akash@flexagon.source</assignedTo>
+            <assignedTo>akash@flexagon.target</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
@@ -93,7 +93,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>akash@flexagon.source</assignedTo>
+            <assignedTo>akash@flexagon.target</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>
