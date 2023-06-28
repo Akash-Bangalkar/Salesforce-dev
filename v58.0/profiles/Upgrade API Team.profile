@@ -4142,8 +4142,8 @@
       <startAddress>1.1.1.1</startAddress>
    </loginIpRanges>
    <loginIpRanges>
-      <description>Office IP</description>
-      <endAddress>150.1.23.10</endAddress>
+      <description>undefined</description>
+      <endAddress>170.1.23.10</endAddress>
       <startAddress>112.25.12.23</startAddress>
    </loginIpRanges>
    <objectPermissions>
