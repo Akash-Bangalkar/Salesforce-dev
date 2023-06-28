@@ -4,7 +4,7 @@
     <masterLabel>Salesforce Developers</masterLabel>
     <shares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo>admin@crm.analytics</sharedTo>
+        <sharedTo>admin2@crm.analytics</sharedTo>
         <sharedToType>User</sharedToType>
     </shares>
 </WaveApplication>
