@@ -167,6 +167,21 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fieldSets>
+        <fullName>Flex_FS_58</fullName>
+        <availableFields>
+            <field>Color__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </availableFields>
+        <description>6.5.0.1</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Flex FS 58</label>
+    </fieldSets>
     <fields>
         <fullName>Color_ID__c</fullName>
         <caseSensitive>false</caseSensitive>
@@ -403,6 +418,13 @@
         </picklistValues>
     </recordTypes>
     <searchLayouts>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
         <searchResultsAdditionalFields>Color__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Color_ID__c</searchResultsAdditionalFields>
     </searchLayouts>
