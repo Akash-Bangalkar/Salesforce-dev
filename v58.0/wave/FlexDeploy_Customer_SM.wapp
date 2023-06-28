@@ -5,7 +5,7 @@
     <masterLabel>FlexDeploy Customer SM</masterLabel>
     <shares>
         <accessLevel>Manage</accessLevel>
-        <sharedTo>admin@crm.analytics</sharedTo>
+        <sharedTo>admin2@crm.analytics</sharedTo>
         <sharedToType>User</sharedToType>
     </shares>
     <templateOrigin>sfdc_internal__CustomerInsights</templateOrigin>
