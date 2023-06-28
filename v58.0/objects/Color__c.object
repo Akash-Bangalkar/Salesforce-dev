@@ -262,6 +262,13 @@
       <type>Text</type>
    </nameField>
    <pluralLabel>Colors</pluralLabel>
+   <profileSearchLayouts>
+      <fields>NAME</fields>
+      <fields>Color__c</fields>
+      <fields>Color_ID__c</fields>
+      <fields>OBJECT_ID</fields>
+      <profileName>System Administrator</profileName>
+   </profileSearchLayouts>
    <recordTypeTrackHistory>false</recordTypeTrackHistory>
    <recordTypes>
       <fullName>Primary_Color</fullName>
