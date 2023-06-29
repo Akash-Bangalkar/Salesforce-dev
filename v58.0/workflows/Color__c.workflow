@@ -28,7 +28,7 @@
       <fields>Color__c</fields>
       <fields>Id</fields>
       <includeSessionId>false</includeSessionId>
-      <integrationUser>akash@flexagon.source</integrationUser>
+      <integrationUser>akash@flexagon.target</integrationUser>
       <name>Out Msg</name>
       <protected>false</protected>
       <useDeadLetterQueue>false</useDeadLetterQueue>
