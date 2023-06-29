@@ -116,34 +116,34 @@
    </classAccesses>
    <custom>true</custom>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.AccountNumber</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.AccountSource</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Active__c</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.AnnualRevenue</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.BillingAddress</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>false</editable>
       <field>Account.CleanStatus</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>true</editable>
@@ -256,9 +256,9 @@
       <readable>true</readable>
    </fieldPermissions>
    <fieldPermissions>
-      <editable>true</editable>
+      <editable>false</editable>
       <field>Account.Site</field>
-      <readable>true</readable>
+      <readable>false</readable>
    </fieldPermissions>
    <fieldPermissions>
       <editable>true</editable>
@@ -4156,7 +4156,7 @@
    </loginIpRanges>
    <objectPermissions>
       <allowCreate>true</allowCreate>
-      <allowDelete>false</allowDelete>
+      <allowDelete>true</allowDelete>
       <allowEdit>true</allowEdit>
       <allowRead>true</allowRead>
       <modifyAllRecords>false</modifyAllRecords>
