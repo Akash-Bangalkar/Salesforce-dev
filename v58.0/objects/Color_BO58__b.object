@@ -1,23 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <deploymentStatus>InDevelopment</deploymentStatus>
-    <fields>
-        <fullName>Name__c</fullName>
-        <externalId>false</externalId>
-        <label>Name</label>
-        <length>12</length>
-        <required>true</required>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <indexes>
-        <fullName>Sr_No</fullName>
-        <fields>
-            <name>Name__c</name>
-            <sortDirection>ASC</sortDirection>
-        </fields>
-        <label>Sr No</label>
-    </indexes>
-    <label>Color BO58</label>
-    <pluralLabel>Color BO58s</pluralLabel>
+   <deploymentStatus>InDevelopment</deploymentStatus>
+   <fields>
+      <fullName>Name__c</fullName>
+      <externalId>false</externalId>
+      <label>Name</label>
+      <length>12</length>
+      <required>true</required>
+      <type>Text</type>
+      <unique>false</unique>
+   </fields>
+   <fields>
+      <fullName>Account__c</fullName>
+      <externalId>false</externalId>
+      <label>Account</label>
+      <referenceTo>Account</referenceTo>
+      <relationshipLabel>Color BO58s</relationshipLabel>
+      <relationshipName>Color_BO58s</relationshipName>
+      <required>false</required>
+      <type>Lookup</type>
+   </fields>
+   <fields>
+      <fullName>Person_Contact__c</fullName>
+      <externalId>false</externalId>
+      <label>Person Contact</label>
+      <required>false</required>
+      <type>Phone</type>
+   </fields>
+   <indexes>
+      <fullName>Sr_No</fullName>
+      <fields>
+         <name>Name__c</name>
+         <sortDirection>ASC</sortDirection>
+      </fields>
+      <label>Sr No</label>
+   </indexes>
+   <label>Color BO58</label>
+   <pluralLabel>Color BO58s</pluralLabel>
 </CustomObject>
