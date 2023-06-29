@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecommendationStrategy xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contextRecordType>Color__c</contextRecordType>
+    <filter>
+        <label>Filter</label>
+        <name>Filter</name>
+        <expression>ActionReference = Update</expression>
+    </filter>
+    <label>SFDC 58.0</label>
+    <map>
+        <label>Map</label>
+        <name>Map</name>
+        <mapExpression>
+            <expression>Yes</expression>
+            <name>IsDeleted</name>
+            <type>Text</type>
+        </mapExpression>
+    </map>
+    <sort>
+        <label>Sort</label>
+        <name>Sort</name>
+        <field>
+            <name>CreatedById</name>
+            <nullsFirst>false</nullsFirst>
+            <order>Asc</order>
+        </field>
+    </sort>
+    <union>
+        <childNode>Filter</childNode>
+        <childNode>Sort</childNode>
+        <childNode>Map</childNode>
+        <label>Output</label>
+        <name>Output_1bbbc15f28e542cda63e0ef4d3b2eebc</name>
+    </union>
+</RecommendationStrategy>
